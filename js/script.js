@@ -253,325 +253,259 @@ $(document).ready(function(){
   //Level 5 Buttons
   $("#quest5-0").click(function(){
     $("#question5-0").hide();
-    $("#question").show();
+    $("#question3-2").show();
   });
   $("#quest5-1").click(function(){
     $("#question5-0").hide();
-    $("#question").show();
+    $("#question2-3").show();
   });
   $("#quest5-2").click(function(){
     $("#question5-1").hide();
-    $("#question").show();
+    $("#question3-4").show();
   });
   $("#quest5-3").click(function(){
     $("#question5-1").hide();
-    $("#question").show();
+    $("#question4-2").show();
   });
   $("#quest5-4").click(function(){
     $("#question5-2").hide();
-    $("#question").show();
+    $("#question2-4").show();
   });
   $("#quest5-5").click(function(){
     $("#question5-2").hide();
-    $("#question").show();
+    $("#question4-2").show();
   });
   $("#quest5-6").click(function(){
     $("#question5-3").hide();
-    $("#question").show();
+    $("#question4-10").show();
   });
   $("#quest5-7").click(function(){
     $("#question5-3").hide();
-    $("#question").show();
+    $("#question3-6").show();
   });
   $("#quest5-8").click(function(){
     $("#question5-4").hide();
-    $("#question").show();
+    $("#question4-8").show();
   });
   $("#quest5-9").click(function(){
     $("#question5-4").hide();
-    $("#question").show();
+    $("#question3-6").show();
   });
   $("#quest5-10").click(function(){
     $("#question5-5").hide();
-    $("#question").show();
+    $("#question3-8").show();
   });
   $("#quest5-11").click(function(){
     $("#question5-5").hide();
-    $("#question").show();
+    $("#question4-11").show();
   });
   $("#quest5-12").click(function(){
     $("#question5-6").hide();
-    $("#question").show();
+    $("#question4-12").show();
   });
   $("#quest5-13").click(function(){
     $("#question5-6").hide();
-    $("#question").show();
+    $("#question3-0").show();
   });
   $("#quest5-14").click(function(){
     $("#question5-7").hide();
-    $("#question").show();
+    $("#question3-0").show();
   });
   $("#quest5-15").click(function(){
     $("#question5-7").hide();
-    $("#question").show();
+    $("#question2-0").show();
   });
   $("#quest5-16").click(function(){
-    $("#question5-8").hide();
-    $("#question").show();
+    $("#question5-8").hide();//Win
+    $("#win").show();//Win
   });
   $("#quest5-17").click(function(){
     $("#question5-8").hide();
-    $("#question").show();
+    $("#question4-1").show();
   });
   $("#quest5-18").click(function(){
     $("#question5-9").hide();
-    $("#question").show();
+    $("#question3-2").show();
   });
   $("#quest5-19").click(function(){
     $("#question5-9").hide();
-    $("#question").show();
+    $("#question3-4").show();
   });
   $("#quest5-20").click(function(){
     $("#question5-10").hide();
-    $("#question").show();
+    $("#question3-5").show();
   });
   $("#quest5-21").click(function(){
     $("#question5-10").hide();
-    $("#question").show();
+    $("#question4-9").show();
   });
   $("#quest5-22").click(function(){
     $("#question5-11").hide();
-    $("#question").show();
+    $("#question3-4").show();
   });
   $("#quest5-23").click(function(){
     $("#question5-11").hide();
-    $("#question").show();
+    $("#question2-1").show();
   });
   $("#quest5-24").click(function(){
     $("#question5-12").hide();
-    $("#question").show();
+    $("#question4-12").show();
   });
   $("#quest5-25").click(function(){
     $("#question5-12").hide();
-    $("#question").show();
+    $("#question4-7").show();
   });
   $("#quest5-26").click(function(){
     $("#question5-13").hide();
-    $("#question").show();
+    $("#question4-8").show();
   });
   $("#quest5-27").click(function(){
     $("#question5-13").hide();
-    $("#question").show();
+    $("#question3-5").show();
   });
   $("#quest5-28").click(function(){
     $("#question5-14").hide();
-    $("#question").show();
+    $("#question3-7").show();
   });
   $("#quest5-29").click(function(){
     $("#question5-14").hide();
-    $("#question").show();
+    $("#question3-4").show();
   });
   $("#quest5-30").click(function(){
     $("#question5-15").hide();
-    $("#question").show();
+    $("#question3-3").show();
   });
   $("#quest5-31").click(function(){
     $("#question5-15").hide();
-    $("#question").show();
+    $("#question3-2").show();
   });
   $("#quest5-32").click(function(){
     $("#question5-16").hide();
-    $("#question").show();
+    $("#question4-10").show();
   });
   $("#quest5-33").click(function(){
     $("#question5-16").hide();
-    $("#question").show();
+    $("#question3-7").show();
   });
   $("#quest5-34").click(function(){
     $("#question5-17").hide();
-    $("#question").show();
+    $("#question4-7").show();
   });
   $("#quest5-35").click(function(){
     $("#question5-17").hide();
-    $("#question").show();
+    $("#question3-0").show();
   });
   $("#quest5-36").click(function(){
     $("#question5-18").hide();
-    $("#question").show();
+    $("#question4-0").show();
   });
   $("#quest5-37").click(function(){
     $("#question5-18").hide();
-    $("#question").show();
+    $("#question3-4").show();
   });
   $("#quest5-38").click(function(){
     $("#question5-19").hide();
-    $("#question").show();
+    $("#question3-0").show();
   });
   $("#quest5-39").click(function(){
     $("#question5-19").hide();
-    $("#question").show();
+    $("#question2-2").show();
   });
   $("#quest5-40").click(function(){
     $("#question5-20").hide();
-    $("#question").show();
+    $("#question2-1").show();
   });
   $("#quest5-41").click(function(){
     $("#question5-20").hide();
-    $("#question").show();
+    $("#question1").show();
   });
   $("#quest5-42").click(function(){
     $("#question5-21").hide();
-    $("#question").show();
+    $("#question3-6").show();
   });
   $("#quest5-43").click(function(){
     $("#question5-21").hide();
-    $("#question").show();
+    $("#question4-6").show();
   });
   $("#quest5-44").click(function(){
     $("#question5-22").hide();
-    $("#question").show();
+    $("#question4-8").show();
   });
   $("#quest5-45").click(function(){
     $("#question5-22").hide();
-    $("#question").show();
+    $("#question4-8").show();
   });
   $("#quest5-46").click(function(){
     $("#question5-23").hide();
-    $("#question").show();
+    $("#question4-10").show();
   });
   $("#quest5-47").click(function(){
     $("#question5-23").hide();
-    $("#question").show();
+    $("#question4-10").show();
   });
   $("#quest5-48").click(function(){
     $("#question5-24").hide();
-    $("#question").show();
+    $("#question4-1").show();
   });
   $("#quest5-49").click(function(){
     $("#question5-24").hide();
-    $("#question").show();
+    $("#question4-2").show();
   });
   $("#quest5-50").click(function(){
     $("#question5-25").hide();
-    $("#question").show();
+    $("#question4-3").show();
   });
   $("#quest5-51").click(function(){
     $("#question5-25").hide();
-    $("#question").show();
+    $("#question4-4").show();
   });
   $("#quest5-52").click(function(){
     $("#question5-26").hide();
-    $("#question").show();
+    $("#question4-5").show();
   });
   $("#quest5-53").click(function(){
     $("#question5-26").hide();
-    $("#question").show();
+    $("#question4-8").show();
   });
   $("#quest5-54").click(function(){
     $("#question5-27").hide();
-    $("#question").show();
+    $("#question4-6").show();
   });
   $("#quest5-55").click(function(){
     $("#question5-27").hide();
-    $("#question").show();
+    $("#question3-2").show();
   });
   $("#quest5-56").click(function(){
     $("#question5-28").hide();
-    $("#question").show();
+    $("#question3-0").show();
   });
   $("#quest5-57").click(function(){
     $("#question5-28").hide();
-    $("#question").show();
+    $("#question3-2").show();
   });
   $("#quest5-58").click(function(){
     $("#question5-29").hide();
-    $("#question").show();
+    $("#question3-1").show();
   });
   $("#quest5-59").click(function(){
     $("#question5-29").hide();
-    $("#question").show();
+    $("#question4-0").show();
   });
   $("#quest5-60").click(function(){
     $("#question5-30").hide();
-    $("#question").show();
+    $("#question3-1").show();
   });
   $("#quest5-61").click(function(){
     $("#question5-30").hide();
-    $("#question").show();
+    $("#question2-1").show();
   });
   $("#quest5-62").click(function(){
     $("#question5-31").hide();
-    $("#question").show();
+    $("#question2-1").show();
   });
   $("#quest5-63").click(function(){
     $("#question5-31").hide();
-    $("#question").show();
+    $("#question2-0").show();
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
