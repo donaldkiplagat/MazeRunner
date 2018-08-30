@@ -22,6 +22,7 @@ font-size: 40px;
 border-radius: 8px;
 border: 2px;
 padding: 8px;
+background-color: rgba(0,0,0, 0.7);
 }
 .jumbotron {
     margin-bottom: 0px;

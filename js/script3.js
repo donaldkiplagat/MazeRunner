@@ -109,7 +109,7 @@ $(document).ready(function() {
   });
   $("#quest3-14").click(function() {
     $("#question3-7").hide();
-    $("#question4-14").how();
+    $("#question4-14").show();
   });
   $("#quest3-15").click(function() {
     $("#question3-7").hide();

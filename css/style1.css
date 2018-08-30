@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/hipWallP.jpg");
+  background-image: url("../img/hipWallP.jpg");
 }
 
 /* #formBody{
@@ -107,6 +107,7 @@ p{
 background-color: #E8E8E8;
  border: black;
  border-radius: 25px;
+
 }
 
 .panel-body{
@@ -116,11 +117,12 @@ background-color: #E8E8E8;
 }
 
 .panel-height {
-  height: 400px;
+  /* height: 400px; */
 }
 
 .panel-info{
   background-color: #F8F8F8;
+
 }
 
 .jumbotron{
@@ -128,6 +130,14 @@ background-color: #E8E8E8;
   margin-top: 30px;
   background-color: #F8F8F8;
   border: 2px solid #383838;
+
+  background-image: url(../img/hip.png);
+  background-position: 0% 42%;
+  width:550px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 #question2-0,
