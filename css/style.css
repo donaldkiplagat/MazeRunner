@@ -15,6 +15,42 @@
 #question5-24, #question5-25, #question5-26, #question5-27, #question5-28, #question5-29, #question5-30, #question5-31, #win{
   display:none;
 }
+.panel{
+background-color:black;
+color: white;
+font-size: 40px;
+border-radius: 8px;
+border: 2px;
+padding: 8px;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:195px;
+    width: 550px;
+    margin: auto;
+
+    background-image: url(../img/download.jpeg);
+    background-position: 0% 51%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+
+
+body{
+  /* The image used */
+  background-image: url("../img/marvel.jpg");
+  /* Set a specific height */
+  height:950px;
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+}
+
 
 /* .hide{
   display:none;
