@@ -318,7 +318,7 @@ $(document).ready(function() {
 
   $("#quest5-2").click(function() {
     $("#question5-1").hide();
-    $("#question1-0").show();
+    $("#question1").show();
   });
 
   $("#quest5-3").click(function() {
@@ -622,7 +622,7 @@ $(document).ready(function() {
   });
 
   $("#quest5-63").click(function() {
-    $("#question5-").hide();
+    $("#question5-31").hide();
     $("#question3-7").show();
   });
 });

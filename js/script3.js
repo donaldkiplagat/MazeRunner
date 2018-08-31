@@ -77,7 +77,7 @@ $(document).ready(function() {
   });
   $("#quest3-6").click(function() {
     $("#question3-3").hide();
-    $("#question4-6").how();
+    $("#question4-6").show();
   });
   $("#quest3-7").click(function() {
     $("#question3-3").hide();

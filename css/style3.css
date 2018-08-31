@@ -68,3 +68,11 @@ button:hover {
   background: #00ff8c;
   color: black;
 }
+h4{
+  font-size: 60px;
+  font-style: normal;
+}
+#gif{
+  height: 300px;
+  width: 650px;
+}

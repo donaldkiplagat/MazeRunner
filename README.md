@@ -1,10 +1,10 @@
-# APPLICATION NAME: Maze Runner!
+# APPLICATION NAME: Maze Runner
 
 ## DESCRIPTION
 
 This Application presents to the User a Landing page where he/she is expected to choose a category of interest out of Five Given Categories, with the click of a button.
 
-Once selected, the user types in a suitable name on a form presented to him/her, then clicks "Start Game", for the game to begin. Here, he/she is expected to choose an answer out of given multiple choices. Depending on the answer picked, corresponding questions keep looping on and on until the user finds the right path to the end of the game, creating some what a Maze!
+Once selected, the user is redirected to the specific maze linked to that category. Here, he/she is expected to choose an answer out of given multiple choices. Depending on the answer picked, corresponding questions keep looping on and on until the user finds the right path to the end of the game, creating some what a Maze!
 
 ## SETUP / INSTALLATION REQUIREMNTS
 
@@ -16,9 +16,9 @@ Once selected, the user types in a suitable name on a form presented to him/her,
 
 ## SYSTEM GUIDLINES
 
-`git clone`
+`git clone https://github.com/donaldkiplagat/MazeRunner.git`
 
-`cd`
+`cd MazeRunner`
 
 `atom . OR code .`
 
@@ -32,14 +32,14 @@ The following is a just one of the BDDs of the system as they can be very length
 
 Button Value > Button ID > DIV ID
 
-Level 1 Buttons
+* Level 1 Buttons
 
 Shade 45 > quest1-0 > question1 > question2-0
 Snoop > quest1-1 > question1 > question2-1
 Eminem > quest1-2 > question1 > question2-2
 Yela > quest1-3 > question1 > question2-3
 
-Level 2 Buttons
+* Level 2 Buttons
 
 Black > quest2-0 > question2-0 > question3-1
 Reasonable > quest2-1 > question2-0 > question3-0
@@ -53,7 +53,7 @@ Gudda > quest2-5 > question2-2 > question3-4
 Diddy > quest2-6 > question2-3 > question3-6
 Waka > quest2-7 > question2-3 > question3-7
 
-Level 3 Buttons
+* Level 3 Buttons
 
 JID > quest3-0> question3-0 > question4-0
 Yatchy > quest3-1 > question3-0 > question4-1
@@ -79,7 +79,7 @@ Carti > quest3-13> question3-6 > question4-12
 Robin > quest3-14> question3-7 > question4-14
 Dwayne > quest3-15> question3-7 > question4-15
 
-Level 4 Buttons
+* Level 4 Buttons
 
 T-Pain > quest4.1> question4-0> question5-0
 B.o.B > quest4.2> question4-0> question5-1
@@ -129,7 +129,7 @@ Bamzi > quest4.30> question4-14> question5-28
 Karuna > quest4.31> question4-15> question5-31
 Kwesta > quest4.32> question4-15> question5-30
 
-Level 5 Buttons:
+* Level 5 Buttons:
 
 Dancehall > quest5.0> question5.0>
 RnB > quest5.1> question5-0>
@@ -241,7 +241,7 @@ LogombaDuo > quest5.63> question5-31>
 
 ## LIVE DEMO
 
-To view the LIVE SITE, Click Here:
+To view the LIVE SITE, Click Here: https://donaldkiplagat.github.io/MazeRunner/.
 
 ## SUPPORT AND CONTACT DETAILS
 

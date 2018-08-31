@@ -273,7 +273,7 @@ $(document).ready(function(){
       });
       $("#quest5-8").click(function(){
         $("#question5-4").hide();
-        $("#question2-5").show();
+        $("#question2-2").show();
       });
       $("#quest5-9").click(function(){
         $("#question5-4").hide();
@@ -349,7 +349,7 @@ $(document).ready(function(){
       });
       $("#quest5-27").click(function(){
         $("#question5-13").hide();
-        $("#question4-18").show();
+        $("#question4-12").show();
       });
       $("#quest5-28").click(function(){
         $("#question5-14").hide();
@@ -496,4 +496,3 @@ $(document).ready(function(){
         $("#question2-1").show();
       });
   });
-  
