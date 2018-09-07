@@ -1,6 +1,6 @@
 body,html{
   height:100%;
-  }
+}
   body{
   /* The image used */
   background-image: url("../img/test.jpg");
@@ -13,28 +13,17 @@ body,html{
   position:relative;
 
 }
-#music{
-  margin-top: 50%;
-  margin-left:-120%;
-}
-#gaming{
-  margin-top: 50%;
-  margin-right:-120%;
-}
-
-#marvel{
-  margin-top: 50%;
-  margin-left:-120%;
-}
-#entertainment{
-  margin-top: 50%;
-  margin-right:-120%;
+#row1{
+  margin-left: -32%;
+  margin-right: -31%;
+  margin-top: 10%;
 }
 #row2{
-  margin-top: -4%;
-
-
+  margin-left: -32%;
+  margin-right: -31%;
+  margin-top: 10%;
 }
+
 .jumbotron {
     margin-bottom: 0px;
     height:0px;
@@ -50,17 +39,14 @@ body,html{
     text-shadow: black 0.9em 0.9em 0.9em;
 }
 #intro{
-  margin-top: 26%;
+
+  margin-top: 12%;
   margin-left: 29%;
 
   border-radius: 25px;
 
     padding: 20px;
-  /* border-top: 5px;
-  border-left: 1px;
-  border-width: 1px;
-  border: 2px solid red;
-  border-radius: 1px; */
+
   color: white;
   width:500px;
   height:170px;
@@ -68,4 +54,999 @@ body,html{
 font-size: 25px;
 background-color: rgba(0,0,0, 0.7);
 
+}
+
+
+/* Media query for iphone 6/7/8 */
+@media only screen and (min-device-width : 375px) and (max-device-height : 667px) {
+
+  body{
+  /* The image used */
+  background-image: url("../img/iphone7.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 35%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+/* Media query for Galaxy S5*/
+@media only screen and (min-device-width : 360px) and (max-device-height : 640px) {
+  body{
+  /* The image used */
+  background-image: url("../img/galaxys5.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 50%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+/* Media query for Pixel 2*/
+@media only screen and (min-device-width : 411px) and (max-device-height : 731px) {
+  body{
+  /* The image used */
+  background-image: url("../img/pixel2.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 50%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#sports{
+    margin-left:30%;
+}
+
+}
+
+/* Media query for Pixel 2 XL*/
+@media only screen and (device-width : 411px) and (device-height : 823px) {
+  body{
+  /* The image used */
+  background-image: url("../img/pixel2XL.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 50%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 60%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#sports{
+    margin-left:30%;
+}
+
+}
+
+/* Media query for iPhone 5 */
+@media only screen and (min-device-width : 320px) and (max-device-height : 568px) {
+  body{
+  /* The image used */
+  background-image: url("../img/iphone5.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 50%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#sports{
+    margin-left:30%;
+}
+
+}
+
+/* Media query for iPhone 6/7/8 Plus */
+@media only screen and (min-device-width : 414px) and (max-device-height : 736px) {
+  body{
+  /* The image used */
+  background-image: url("../img/iphone7plus.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 50%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 40%;
+}
+#sports{
+    margin-left:30%;
+}
+
+}
+
+/* Media query for iPhone X */
+@media only screen and (min-device-height : 810px) and (max-device-height : 820px) {
+  body{
+  /* The image used */
+  background-image: url("../img/iphonex.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 60%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 60%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 50%;
+}
+#sports{
+    margin-left:30%;
+}
+
+}
+
+/* Media query for iPad */
+@media only screen and (min-device-height : 1024px) and (max-device-height : 1028px) {
+  body{
+  /* The image used */
+  background-image: url("../img/ipad.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 30%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 30%;
+}
+#row2{
+    margin-left: 1%;
+    margin-right: -31%;
+    margin-top: 20%;
+}
+#sports{
+    margin-left:30%;
+}
+
+}
+
+/* Media query for iPad Pro */
+@media only screen and (min-device-height : 1366px) and (max-device-height : 1370px) {
+
+  body{
+  /* The image used */
+  background-image: url("../img/ipadpro.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:fixed;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 20%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: -2%;
+    margin-right: -15%;
+    margin-top: 25%;
+}
+#row2{
+    margin-left: -2%;
+    margin-right: -15%;
+    margin-top: 20%;
+}
+#sports{
+    margin-left:8%;
+}
+
+}
+
+
+/* Landscape Mode */
+
+
+/* Media query for Galaxy S5*/
+@media only screen and (min-device-width : 640px) and (max-device-height : 360px) {
+  body{
+  /* The image used */
+  background-image: url("../img/homes5land.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 7%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+
+/* Media query for pixel2XL*/
+@media only screen and (min-device-width : 823px) and (max-device-height : 411px) {
+  body{
+  /* The image used */
+  background-image: url("../img/pixel2xlland.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 2%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: -5%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+
+
+/* Media query for pixel2*/
+@media only screen and (min-device-width : 731px) and (max-device-height : 411px) {
+  body{
+  /* The image used */
+  background-image: url("../img/homepixel2land.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 2%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: -5%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+
+
+/* Media query for iphone 6*/
+@media only screen and (min-device-width : 568px) and (max-device-height : 320px) {
+  body{
+  /* The image used */
+  background-image: url("../img/homeiphone5land.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 2%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 0%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+
+
+/* Media query for iphone 7*/
+@media only screen and (min-device-width : 667px) and (max-device-height : 375px) {
+  body{
+  /* The image used */
+  background-image: url("../img/homeiphone6land.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 2%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 0%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+
+
+/* Media query for iphone 7 plus*/
+@media only screen and (min-device-width : 736px) and (max-device-height : 414px) {
+  body{
+  /* The image used */
+  background-image: url("../img/homeiphone7plusland.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 2%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 0%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+
+
+/* Media query for iphone 7*/
+@media only screen and (device-width : 812px) {
+  body{
+  /* The image used */
+  background-image: url("../img/homeiphonexland.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 2%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: -5%;
+}
+#sports{
+    margin-left:30%;
+}
+}
+
+
+/* Media query for iphone 7*/
+@media only screen and (device-width : 1024px) and (max-device-height : 768px) {
+  body{
+  /* The image used */
+  background-image: url("../img/homeipadland.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    height:0px;
+    width: 550px;
+    margin-left: 190px;
+
+    background-image: url(../img/mazerunner.jpg);
+    background-position: 0% 58%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    text-shadow: black 0.9em 0.9em 0.9em;
+}
+#intro{
+    margin-top: 2%;
+    margin-left: 30%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+
+    color: white;
+    width:500px;
+    height:170px;
+    background-color: black;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.7);
+}
+#row1{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 1%;
+}
+#row2{
+    margin-left: 0%;
+    margin-right: -31%;
+    margin-top: 0%;
+}
+#sports{
+    margin-left:30%;
+}
 }
