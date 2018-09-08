@@ -517,7 +517,7 @@ background-color: #E8E8E8;
 
 
 /* Media query for Samsung J 6*/
-@media only screen and (min-device-width : 720px) and (min-device-height : 1480px) {
+@media only screen and (device-width : 720px) and (device-height : 1480px) {
   body{
     /* The image used */
     background-image: url("../img/hipWallP.jpg");
