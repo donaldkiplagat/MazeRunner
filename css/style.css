@@ -201,7 +201,7 @@ h4{
 
 
 /* Media query for iphone X  */
-@media only screen and (device-width : 375px) and (max-device-height : 812px) {
+@media only screen and (device-width : 375px) and (device-height : 812px) {
   body{
     /* The image used */
     background-image: url("../img/marvel.jpg");
