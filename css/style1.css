@@ -213,8 +213,48 @@ background-color: #E8E8E8;
 #question5-31 {
   display: none;
 }
+
+/* Media query for 15.4inch screens*/
+@media  (min-device-width : 1281px){
+body,html{
+  height:100%;
+}
+  body{
+    /* The image used */
+    background-image: url("../img/hipWallP.jpg");
+    /* Set a specific height */
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+    margin-top: -45px;
+  background-color: #E8E8E8;
+   border: black;
+   border-radius: 25px;
+
+  }
+
+  .panel-body{
+    background-color:#F5F5F5;
+    border-radius: 25px;
+     border: 2px solid #383838;
+  }
+
+  .panel-height {
+    /* height: 400px; */
+  }
+
+  .panel-info{
+    background-color: #F8F8F8;
+
+  }
+}
+
 /* Media query for iphone 6/7/8 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+@media only screen and (device-width : 375px) and (max-device-width : 667px) {
   body{
     /* The image used */
     background-image: url("../img/hipWallP.jpg");
@@ -251,7 +291,7 @@ background-color: #E8E8E8;
 }
 
 /* Media query for Galaxy S5*/
-@media only screen and (min-device-width : 360px) and (max-device-height : 640px) {
+@media only screen and (device-width : 360px) and (max-device-height : 640px) {
   body{
     /* The image used */
     background-image: url("../img/hipWallP.jpg");
@@ -326,7 +366,7 @@ background-color: #E8E8E8;
 
 
 /* Media query for iPhone5 */
-@media only screen and (min-device-width : 320px) and (max-device-height : 568px) {
+@media only screen and (device-width : 320px) and (max-device-height : 568px) {
   body{
     /* The image used */
     background-image: url("../img/hipWallP.jpg");
@@ -364,7 +404,7 @@ background-color: #E8E8E8;
 
 
 /* Media query for iPhone X */
-@media only screen and (min-device-width : 375px) and (device-height : 812px) {
+@media only screen and (device-width : 375px) and (device-height : 812px) {
   body{
     /* The image used */
     background-image: url("../img/hipWallP.jpg");
@@ -477,43 +517,7 @@ background-color: #E8E8E8;
 
 
 
-/* Media query for 15.4inch screens*/
-@media only screen and (device-width : 1366px) and (device-width : 768px) {
 
-  body{
-    /* The image used */
-    background-image: url("../img/hipWallP.jpg");
-    /* Set a specific height */
-    height:1000px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-  }
-  .panel{
-    margin-top: 0px;
-  background-color: #E8E8E8;
-   border: black;
-   border-radius: 25px;
-
-  }
-
-  .panel-body{
-    background-color:#F5F5F5;
-    border-radius: 25px;
-     border: 2px solid #383838;
-  }
-
-  .panel-height {
-    /* height: 400px; */
-  }
-
-  .panel-info{
-    background-color: #F8F8F8;
-
-  }
-}
 
 
 /* Media query for Samsung J 6*/
