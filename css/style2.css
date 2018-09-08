@@ -258,3 +258,32 @@ h4{
   background-color: rgba(0,0,0, 0.7);
   }
 }
+
+
+/* Media query for iphone 6/7/8 */
+@media only screen and (device-width : 1366px) and (device-height : 768px) {
+  body,html{
+    height:100%;
+    }
+    body{
+    /* The image used */
+    background-image: url("../img/players.jpg");
+    /* Set a specific height */
+    height:100px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: -5px;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+}

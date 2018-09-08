@@ -156,7 +156,7 @@ h4{
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
-    margin
+
 
   }
   .panel{
@@ -268,7 +268,7 @@ h4{
     background-repeat:no-repeat;
     background-size:cover;
     position:relative;
-    margin
+
 
   }
   .panel{
@@ -280,5 +280,47 @@ h4{
   border: 2px;
   padding: 8px;
   background-color: rgba(0,0,0, 0.7);
+  }
+}
+
+
+
+/* Media query for 15.4 inch screens  */
+@media only screen and (device-width : 1366px) and (device-height : 768px) {
+  
+  body{
+    /* The image used */
+    background-image: url("../img/marvel.jpg");
+    /* Set a specific height */
+    height:1000px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: -1%;
+  background-color:black;
+  color: white;
+  font-size: 40px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+  .jumbotron {
+      margin-bottom: 0px;
+      height:150px;
+      width: 550px;
+      margin: auto;
+
+      background-image: url(../img/download.jpeg);
+      background-position: 0% 51%;
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: yellow;
+      text-shadow: black 0.9em 0.9em 0.9em;
   }
 }
