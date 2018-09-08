@@ -313,3 +313,31 @@ h4{
   background-color: rgba(0,0,0, 0.7);
   }
 }
+
+
+/* Media Query for Samsung J 6 */
+@media only screen and (min-device-width : 720px) and (min-device-height : 1480px) {
+  body,html{
+    height:100%;
+    }
+    body{
+    /* The image used */
+    background-image: url("../img/godpixel2xl.jpg");
+    height:950px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: 50%;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+}
