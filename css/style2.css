@@ -59,8 +59,63 @@ h4{
   width: 500px;
 }
 
+
+/* Media query for 15.4 inch screens  */
+@media (min-device-width : 1281px) {
+body,html{
+  height:100%;
+}
+body{
+  /* The image used */
+  background-image: url("../img/players.jpg");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.panel{
+margin-top: -5%;
+background-color:black;
+color: white;
+font-size: 50px;
+border-radius: 8px;
+border: 2px;
+padding: 8px;
+background-color: rgba(0,0,0, 0.7);
+}
+
+}
+
+/* Media query for iPad Pro*/
+@media only screen and (device-height : 1366px) {
+  body{
+    /* The image used */
+    background-image: url("../img/fifaipadpro.jpg");
+    /* Set a specific height */
+    height:1000px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: 20%;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+}
+
 /* Media query for iphone 6/7/8 */
-@media only screen and (min-device-width : 375px) and (max-device-height : 667px) {
+@media only screen and (device-width : 375px) and (max-device-height : 667px) {
   body{
     /* The image used */
     background-image: url("../img/players.jpg");
@@ -85,7 +140,7 @@ h4{
 }
 
 /* Media query for Galaxy S5 */
-@media only screen and (min-device-width : 360px) and (max-device-height : 640px) {
+@media only screen and (device-width : 360px) and (max-device-height : 640px) {
   body{
     /* The image used */
     background-image: url("../img/fifas5.jpg");
@@ -110,7 +165,7 @@ h4{
 }
 
 /* Media query for Pixel 2 & 2XL*/
-@media only screen and (min-device-width : 411px) and (max-device-height : 823px) {
+@media only screen and (device-width : 411px) and (max-device-height : 823px) {
   body{
     /* The image used */
     background-image: url("../img/fifapixel2xl.jpg");
@@ -135,7 +190,7 @@ h4{
 }
 
 /* Media query for iphone 5 */
-@media only screen and (min-device-width : 320px) and (max-device-height : 568px) {
+@media only screen and (device-width : 320px) and (max-device-height : 568px) {
   body{
     /* The image used */
     background-image: url("../img/fifaiphone5.jpg");
@@ -160,7 +215,7 @@ h4{
 }
 
 /* Media query for iphone 6/7/8 */
-@media only screen and (min-device-width : 375px) and (max-device-height : 667px) {
+@media only screen and (device-width : 375px) and (max-device-height : 667px) {
   body{
     /* The image used */
     background-image: url("../img/players.jpg");
@@ -234,30 +289,7 @@ h4{
   }
 }
 
-/* Media query for iPad Pro*/
-@media only screen and (device-height : 1366px) {
-  body{
-    /* The image used */
-    background-image: url("../img/fifaipadpro.jpg");
-    /* Set a specific height */
-    height:1000px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-  }
-  .panel{
-  margin-top: 20%;
-  background-color:black;
-  color: white;
-  font-size: 50px;
-  border-radius: 8px;
-  border: 2px;
-  padding: 8px;
-  background-color: rgba(0,0,0, 0.7);
-  }
-}
+
 
 
 /* Media query for iphone 6/7/8 */

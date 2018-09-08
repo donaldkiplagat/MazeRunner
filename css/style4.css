@@ -67,8 +67,37 @@ h4{
   font-size: 30px;
 }
 
+/* Media query for 15.4 inch screens  */
+@media (min-device-width : 1281px) {
+body,html{
+  height:100%;
+}
+body{
+  /* The image used */
+  background-image: url("../img/thumb-1920-413551.png");
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+}
+.panel{
+margin-top: -4%;
+background-color:black;
+color: white;
+font-size: 50px;
+border-radius: 8px;
+border: 2px;
+padding: 8px;
+background-color: rgba(0,0,0, 0.7);
+}
+
+}
+
 /* Media Query for iphone6/7/8 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+@media only screen and (device-width : 375px) and (max-device-width : 667px) {
   body,html{
     height:100%;
     }
@@ -95,7 +124,7 @@ h4{
 }
 
 /* Media Query for GalaxyS5 */
-@media only screen and (min-device-width : 360px) and (max-device-height : 640px) {
+@media only screen and (device-width : 360px) and (max-device-height : 640px) {
   body,html{
     height:100%;
     }
@@ -122,7 +151,7 @@ h4{
 }
 
 /* Media Query for Pixel2 */
-@media only screen and (min-device-width : 411px) and (max-device-height : 731px) {
+@media only screen and (device-width : 411px) and (max-device-height : 731px) {
   body,html{
     height:100%;
     }
@@ -176,7 +205,7 @@ h4{
 }
 
 /* Media Query for iPhone 5 */
-@media only screen and (min-device-width : 320px) and (max-device-height : 568px) {
+@media only screen and (device-width : 320px) and (max-device-height : 568px) {
   body,html{
     height:100%;
     }
@@ -204,7 +233,7 @@ h4{
 
 
 /* Media Query for iPhone 7 Plus*/
-@media only screen and (min-device-width : 414px) and (max-device-height : 736px) {
+@media only screen and (device-width : 414px) and (max-device-height : 736px) {
   body,html{
     height:100%;
     }

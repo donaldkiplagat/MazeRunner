@@ -76,8 +76,37 @@ h4{
   height: 300px;
   width: 650px;
 }
+
+/* Media query for 15.4 inch screen */
+@media only screen and (min-device-width : 1281px){
+  body,html{
+    height:100%;
+    }
+    body{
+    /* The image used */
+    background-image: url("../img/Tomorrowland-Belgium-Wallpaper-HD-27064.jpg");
+    /* Set a specific height */
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: -50px;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+}
+
+
 /* Media query for iphone 6/7/8 */
-@media only screen and (min-device-width : 375px) and (max-device-height : 667px) {
+@media only screen and (device-width : 375px) and (max-device-height : 667px) {
   body{
     /* The image used */
     background-image: url("../img/Tomorrowland-Belgium-Wallpaper-HD-27064.jpg");
@@ -103,7 +132,7 @@ h4{
 
 
 /* Media query for Galaxy S5 */
-@media only screen and (min-device-width : 360px) and (max-device-height : 640px) {
+@media only screen and (device-width : 360px) and (max-device-height : 640px) {
   body{
     /* The image used */
     background-image: url("../img/ents5.jpg");
@@ -129,7 +158,7 @@ h4{
 
 
 /* Media query for Pixel 2 & 2XL */
-@media only screen and (min-device-width : 411px) and (max-device-height : 823px) {
+@media only screen and (device-width : 411px) and (max-device-height : 823px) {
   body{
     /* The image used */
     background-image: url("../img/entpixel2xl.jpg");
@@ -155,7 +184,7 @@ h4{
 
 
 /* Media query for iPhone 5*/
-@media only screen and (min-device-width : 320px) and (max-device-height: 568px) {
+@media only screen and (device-width : 320px) and (max-device-height: 568px) {
   body{
     /* The image used */
     background-image: url("../img/entiphone5.jpg");
@@ -256,33 +285,7 @@ h4{
   }
 }
 
-/* Media query for 15.4 inch screen */
-@media only screen and (device-width : 1366px) and (device-height : 768px) {
-  body,html{
-    height:100%;
-    }
-    body{
-    /* The image used */
-    background-image: url("../img/Tomorrowland-Belgium-Wallpaper-HD-27064.jpg");
-    /* Set a specific height */
-    height:1000px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-  }
-  .panel{
-  margin-top: 5px;
-  background-color:black;
-  color: white;
-  font-size: 50px;
-  border-radius: 8px;
-  border: 2px;
-  padding: 8px;
-  background-color: rgba(0,0,0, 0.7);
-  }
-}
+
 
 
 /* Media query for Samsung J 6 */
