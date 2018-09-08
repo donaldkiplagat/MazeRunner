@@ -77,6 +77,60 @@ h4{
   width: 650px;
 }
 
+
+
+/* Media query for Oppo F5 Lite/Tecno Spark 2 */
+@media only screen and (min-device-width : 720px){
+  body{
+    /* The image used */
+    background-image: url("../img/entpixel2xl.jpg");
+    /* Set a specific height */
+    height:700px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: 50%;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+}
+
+/* Media query for Pixel 2 & 2XL */
+@media only screen and (min-device-width : 411px) and (max-device-height : 823px) {
+  body{
+    /* The image used */
+    background-image: url("../img/entpixel2xl.jpg");
+    /* Set a specific height */
+    height:700px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: 35%;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+}
+
+
+
 /* Media query for 15.4 inch screen */
 @media only screen and (min-device-width : 1281px){
   body,html{
@@ -104,6 +158,34 @@ h4{
   }
 }
 
+
+/* Media query for My Screen inch screens  */
+@media (min-device-width : 1451px) {
+  body,html{
+    height:100%;
+    }
+    body{
+    /* The image used */
+    background-image: url("../img/Tomorrowland-Belgium-Wallpaper-HD-27064.jpg");
+    /* Set a specific height */
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: -35px;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+
+}
 
 /* Media query for iphone 6/7/8 */
 @media only screen and (device-width : 375px) and (max-device-height : 667px) {
@@ -157,30 +239,6 @@ h4{
 }
 
 
-/* Media query for Pixel 2 & 2XL */
-@media only screen and (device-width : 411px) and (max-device-height : 823px) {
-  body{
-    /* The image used */
-    background-image: url("../img/entpixel2xl.jpg");
-    /* Set a specific height */
-    height:700px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-  }
-  .panel{
-  margin-top: 35%;
-  background-color:black;
-  color: white;
-  font-size: 50px;
-  border-radius: 8px;
-  border: 2px;
-  padding: 8px;
-  background-color: rgba(0,0,0, 0.7);
-  }
-}
 
 
 /* Media query for iPhone 5*/
@@ -275,34 +333,6 @@ h4{
   }
   .panel{
   margin-top: 10%;
-  background-color:black;
-  color: white;
-  font-size: 50px;
-  border-radius: 8px;
-  border: 2px;
-  padding: 8px;
-  background-color: rgba(0,0,0, 0.7);
-  }
-}
-
-
-
-
-/* Media query for Samsung J 6 */
-@media only screen and (device-width : 720px) and (device-height : 1480px) {
-  body{
-    /* The image used */
-    background-image: url("../img/entpixel2xl.jpg");
-    /* Set a specific height */
-    height:700px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-  }
-  .panel{
-  margin-top: 35%;
   background-color:black;
   color: white;
   font-size: 50px;

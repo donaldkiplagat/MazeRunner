@@ -67,6 +67,33 @@ h4{
   font-size: 30px;
 }
 
+/* Media Query for Tecno Spark */
+@media only screen and (min-device-width : 720px){
+  body,html{
+    height:100%;
+    }
+    body{
+    /* The image used */
+    background-image: url("../img/godpixel2xl.jpg");
+    height:950px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: 50%;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
+}
+
 /* Media query for 15.4 inch screens  */
 @media (min-device-width : 1281px) {
 body,html{
@@ -93,6 +120,35 @@ border: 2px;
 padding: 8px;
 background-color: rgba(0,0,0, 0.7);
 }
+
+}
+
+/* Media query for My Screen inch screens  */
+@media (min-device-width : 1451px) {
+  body,html{
+    height:100%;
+  }
+  body{
+    /* The image used */
+    background-image: url("../img/thumb-1920-413551.png");
+    /* Set a specific height */
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+  }
+  .panel{
+  margin-top: 2%;
+  background-color:black;
+  color: white;
+  font-size: 50px;
+  border-radius: 8px;
+  border: 2px;
+  padding: 8px;
+  background-color: rgba(0,0,0, 0.7);
+  }
 
 }
 
@@ -333,34 +389,6 @@ background-color: rgba(0,0,0, 0.7);
   }
   .panel{
   margin-top: 20%;
-  background-color:black;
-  color: white;
-  font-size: 50px;
-  border-radius: 8px;
-  border: 2px;
-  padding: 8px;
-  background-color: rgba(0,0,0, 0.7);
-  }
-}
-
-
-/* Media Query for Samsung J 6 */
-@media only screen and (device-width : 720px) and (device-height : 1480px) {
-  body,html{
-    height:100%;
-    }
-    body{
-    /* The image used */
-    background-image: url("../img/godpixel2xl.jpg");
-    height:950px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    position:relative;
-  }
-  .panel{
-  margin-top: 50%;
   background-color:black;
   color: white;
   font-size: 50px;
